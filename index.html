@@ -9,8 +9,6 @@
 <body>
   <header>
     <h3>CASA DE CAMBIO</h3>
-  </header>
-  <main>
     <div class="casaDeCambio">
       <form class="formulario">
         <p>Seleccionar moneda a cambiar:</p>
@@ -18,14 +16,27 @@
         <input type="radio" name="cambio" id="dos">Euro
         <p>Ingrese el monto de pesos a cambiar:</p>
         <input type="number" class="inputValor" id="valor">
-        <input type="button" id="cotizador" value="cotizar" onclick="convertir()">
+        <input type="button" id="botonCotizador" value="cotizar" style="background-color: white;">
       </form>
     </div>
-  </main>
-  <footer>
-    <div class="jugadoresFutbol">
-      <button id="botonFutbol">Click FOR futbol</button>
+  </header>
+  <main>
+    <div class="box1">
+      <div class="criptoHouse">  
+        <p>Queres ver los precios de las criptomonedas?</p>
+        <p>Haz click en el boton de aqui abajo</p>
+        <button id="criptoBoton">criptoHouse</button>
+      </div>
     </div>
+    <div class="box2">
+      <div class="noticiasCripto">
+        <p>En este mundo no hay nada mejor que estar actualizado!!</p>
+        <p>Por eso te traemos las mejores noticias cripto!, haz click en el boton de abajo para saber mas!</p>
+        <button id="criptoNewsBoton">criptoNews</button>
+      </div>
+    </div>
+  </main>
+  <footer> 
     <div class="recargar">
       <p><a href="index.html"><button>Recargar</button></a>
       </p>
